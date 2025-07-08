@@ -1,5 +1,17 @@
 # 🧹 ANTI BROWSER - DETECTOR
 
+  ___        _ _       _                                  
+ / _ \ _   _(_) |_ ___| |__   ___  ___  ___  ___ ___ _ __ 
+| | | | | | | | __/ __| '_ \ / _ \/ __|/ _ \/ __/ _ \ '__|
+| |_| | |_| | | || (__| | | |  __/\__ \  __/ (_|  __/ |   
+ \__\_\\__,_|_|\__\___|_| |_|\___||___/\___|\___\___|_|   
+
+
+![Admin Tool](https://img.shields.io/badge/Tipo-Admin%20Script-blue)
+![Batch Script](https://img.shields.io/badge/Linguagem-Batch%20(.bat)-yellow)
+![Windows Only](https://img.shields.io/badge/Sistema-Windows-red)
+![License: MIT](https://img.shields.io/badge/Licença-MIT-green)
+
 Ferramenta em Batch (.bat) para administração e controle de navegadores **Chrome, Firefox e Edge** em máquinas com Windows.
 
 > ⚠️ **Executar como Administrador**  
@@ -11,57 +23,57 @@ Ferramenta em Batch (.bat) para administração e controle de navegadores **Chro
 
 1. **Lista todos os usuários da máquina**
 2. **Detecta se possuem Chrome, Firefox ou Edge**
-3. **Encerra todos os processos do Microsoft Edge (inclusive de segundo plano)**
+3. **Encerra todos os processos do Microsoft Edge (inclusive segundo plano)**
 4. **Exclui todos os perfis do Edge de todos os usuários**
 5. **Limpa histórico, cookies e senhas salvas do Edge**
-6. **Pergunta se deseja bloquear login automático com conta Microsoft no Edge**
+6. **Pergunta se deseja bloquear login automático do Edge com conta Microsoft**
 7. **Pergunta se deseja limpar dados sensíveis do Chrome e Firefox**
 8. **Pergunta se deseja excluir todos os perfis do Chrome**
-9. **Finaliza o Chrome antes da exclusão para evitar erros**
+9. **Finaliza o Chrome antes da exclusão para evitar falhas**
 
 ---
 
 ## 🛡️ Recursos usados
 
-- `taskkill` – Encerra os navegadores em execução
-- `REG ADD` – Insere chaves de política para bloquear login do Edge
-- `rmdir /s /q` – Exclui diretórios inteiros silenciosamente
-- `del /f /q` – Remove arquivos específicos (cookies, senhas, etc.)
-- `%userRoot%` (`C:\Users`) – Varre todos os perfis do sistema
+- `taskkill` – Encerra processos do navegador
+- `REG ADD` – Adiciona políticas para bloquear login automático
+- `rmdir /s /q` – Remove diretórios de forma recursiva e silenciosa
+- `del /f /q` – Apaga arquivos como cookies, logins e cache
+- `%userRoot%` (`C:\Users`) – Varre todos os perfis da máquina
 
 ---
 
 ## 🖥️ Pré-requisitos
 
-- Sistema Operacional: **Windows 10/11**
+- Windows 10 ou 11
 - Permissão de **Administrador**
-- Ideal para ambientes como:
+- Ideal para:
+  - Ambientes corporativos
   - Laboratórios de informática
-  - Empresas que controlam sincronização de dados
-  - Máquinas públicas ou multiusuário
+  - Máquinas públicas ou compartilhadas
 
 ---
 
 ## 🚀 Como usar
 
-1. Baixe ou clone este repositório
+1. Baixe o arquivo .bat deste repositório na versão mais recente
 2. Clique com o botão direito no arquivo `anti-browser.bat`
-3. Execute como **Administrador**
-4. Siga as instruções no terminal (responda com `s` ou `n` para cada etapa)
+3. Selecione **"Executar como administrador"**
+4. Responda `s` (sim) ou `n` (não) para cada etapa
 
 ---
 
 ## ⚠️ Aviso
 
-> Este script **irá apagar permanentemente** dados de navegação, perfis, cookies, senhas e histórico.  
-> Use com responsabilidade. Não há confirmação de exclusão adicional além das perguntas no terminal.
+> Este script **apaga permanentemente** perfis, histórico, cookies e senhas de navegação.  
+> Use com responsabilidade. Todas as ações são precedidas de confirmação.
 
 ---
 
 ## 🧪 Testado em
 
-- Windows 10 Pro x64  
-- Windows 11 Pro x64  
-- Múltiplos usuários logados simultaneamente
+- ✔️ Windows 10 Pro x64  
+- ✔️ Windows 11 Pro x64  
+- ✔️ Múltiplos usuários com sessões simultâneas
 
 ---
