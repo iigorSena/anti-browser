@@ -2,7 +2,7 @@
 setlocal EnableDelayedExpansion
 
 echo =======================================
-echo        ANTI BROWSER - DETECTOR
+echo        ANTI-BROWSER - DETECTOR
 echo         (Chrome, Firefox, Edge)
 echo =======================================
 echo.
