@@ -1,12 +1,5 @@
 # 🧹 ANTI BROWSER - DETECTOR
 
-  ___        _ _       _                                  
- / _ \ _   _(_) |_ ___| |__   ___  ___  ___  ___ ___ _ __ 
-| | | | | | | | __/ __| '_ \ / _ \/ __|/ _ \/ __/ _ \ '__|
-| |_| | |_| | | || (__| | | |  __/\__ \  __/ (_|  __/ |   
- \__\_\\__,_|_|\__\___|_| |_|\___||___/\___|\___\___|_|   
-
-
 ![Admin Tool](https://img.shields.io/badge/Tipo-Admin%20Script-blue)
 ![Batch Script](https://img.shields.io/badge/Linguagem-Batch%20(.bat)-yellow)
 ![Windows Only](https://img.shields.io/badge/Sistema-Windows-red)
